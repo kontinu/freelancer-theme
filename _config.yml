@@ -62,11 +62,11 @@ address:
 # Footer settings
 footer:
   copyright: Kontinu
-  location: Location
-  social: Around the Web
-  credits: Credits
+  location: Ubicación
+  social: En la Web
+  credits: Créditos
 # Credits content
-credits: 'Done by Kontinu using Jekyll'
+credits: 'Hecho por Kontinu utilizando Jekyll'
 
 
 
