@@ -55,19 +55,20 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Guatemala City.
-  - line: +(502) 30093001
-
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+  - line: 📍  Guatemala City.
+  - line: 📞  +(502) 30093001
 
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Kontinu
   location: Location
   social: Around the Web
   credits: Credits
+# Credits content
+credits: 'Done by Kontinu using Jekyll'
+
+
 
 # Build settings
 markdown: kramdown
