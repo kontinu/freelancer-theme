@@ -4,7 +4,7 @@ email: jmarcos.cano@gmail.com
 url: https://kontinu.github.io
 baseurl: /home
 description: "Consultoria Devops en Guatemala, nos especializamos en: Cloud, Docker, SCRUM, Continuous Delivery, Continuous Integration"
-keywords: "devops,consultoria,cd,ci,continuous,docker, devops guatemala"
+keywords: "devops,consultoria,cd,ci,continuous,docker,devopsguatemala"
 skills: "Devops Consulting"
 meta_author: Cano Marcos
 
@@ -36,8 +36,8 @@ color:
 
 
 about: 
-  column1: Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
-  column2:  Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+  column1: Somos una empresa que nos dedicamos a iniciar, orientar y evolucionar a nuestros clientes hacia Devops. 
+  column2: Devops es un cambio cultural dentro de la organización, por lo cual les ayudamos a mejorar mediante capacitaciones, pruebas de dianostico y entrenamiento del personal.
  
 
 
