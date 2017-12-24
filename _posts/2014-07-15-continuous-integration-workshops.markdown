@@ -1,8 +1,8 @@
 ---
 layout: default
-modal-id: 2
-date: 2014-07-17
-img: cake.png
+modal-id: 4
+date: 2014-07-15
+img: ci.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

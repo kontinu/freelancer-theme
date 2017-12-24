@@ -4,7 +4,7 @@ email: jmarcos.cano@gmail.com
 url: https://kontinu.github.io
 baseurl: /home
 description: "Kontinu Guatemala - Consultoria Devops en Guatemala, nos especializamos en: Cloud, Docker, SCRUM, Continuous Delivery, Continuous Integration"
-keywords: "devops,consultoria,cd,ci,continuous,docker,devopsguatemala"
+keywords: "consultoria devops,devops,consultoria,cd,ci,continuous,docker,devopsguatemala"
 skills: "Devops Consulting"
 meta_author: Cano Marcos
 
@@ -36,8 +36,8 @@ color:
 
 
 about:
-  column1: Somos una empresa que nos dedicamos a iniciar, orientar y adopción de todas las buenas practicas hacia DevOps; Devops es la combinación de filosofías culturales, nuevas practicas y uso de herramientas que permiten incrementar la habilidad de la organización para entregar servicios y aplicaciones a sus clientes a alta velocidad.
-  column2: Es por eso que impulsamos a nuestros clientes hacia Devops mediante capacitaciones, talleres, pruebas de diagnóstico y entrenamiento del personal, para que así puedan cumplir con la alta demanda y tengan una mejor ventaja competitiva en la industria de tecnología.
+  column1: Somos una empresa que nos dedicamos a iniciar, orientar y a que nuestros clientes adopten todas las buenas practicas que los dirigirán hacia la transformación DevOps; Devops es la combinación de filosofías culturales, nuevas practicas y uso de herramientas entre equipos multi-funcionales que permiten incrementar la habilidad de la organización para la entrega de software a altas velocidades.
+  column2: Logramos que nuestros clientes adopten Devops mediante capacitaciones, talleres, pruebas de diagnóstico y entrenamiento del personal, para que así puedan cumplir con la alta demanda y tengan una mejor ventaja competitiva en la industria de tecnología.
 
 
 
@@ -66,7 +66,7 @@ footer:
   social: En la Web
   credits: Créditos
 # Credits content
-credits: 'Hecho por Marcos Cano utilizando Jekyll'
+credits: 'Kontinu 2017'
 
 
 
