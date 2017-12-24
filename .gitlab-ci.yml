@@ -1,5 +1,9 @@
 image: ruby:2.3
 
+
+stages:
+  - test
+  - deploy
 variables:
   JEKYLL_ENV: production
 
@@ -25,3 +29,6 @@ pages:
     - public
   only:
   - master
+  environment:
+    name: pages
+    url: https://kontinu.gitlab.io/home/
