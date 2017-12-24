@@ -1,7 +1,7 @@
 # Site settings
 title: Kontinu
 email: jmarcos.cano@gmail.com
-url: https://kontinu.github.io
+url: "/"
 baseurl: /home
 description: "Kontinu Guatemala - Consultoria Devops en Guatemala, nos especializamos en: Cloud, Docker, SCRUM, Continuous Delivery, Continuous Integration"
 keywords: "consultoria devops,devops,consultoria,cd,ci,continuous,docker,devopsguatemala"
