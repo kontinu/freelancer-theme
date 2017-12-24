@@ -15,7 +15,8 @@
                             <div class="caption">
                                 <div class="caption-content">
                                     <i class="fa fa-search-plus fa-3x"></i>
-                                    <!-- <span class="tooltiptext">Tooltip text</span> -->
+                                    {% if post.tooltiptext %} <span class="tooltiptext"><br><br>{{post.tooltiptext}}</span>{% endif %}
+
                                 </div>
                             </div>
 

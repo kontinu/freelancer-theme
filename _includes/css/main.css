@@ -229,7 +229,7 @@ section.success {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: rgb(30, 64, 98);
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
