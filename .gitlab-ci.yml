@@ -2,7 +2,6 @@ image: ruby:2.3
 
 
 stages:
-  - test
   - deploy
 variables:
   JEKYLL_ENV: production
@@ -11,7 +10,7 @@ before_script:
   - bundle install
 
 test:
-  stage: test
+  stage: deploy
   script:
   - bundle exec jekyll build -d test
   artifacts:
