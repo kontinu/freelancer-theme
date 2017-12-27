@@ -88,6 +88,7 @@ markdown: kramdown
 permalink: pretty
 
 
+
 exclude:
   - .img-sources/
   - "*.sh"
