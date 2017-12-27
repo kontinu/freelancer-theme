@@ -30,3 +30,8 @@ View this jekyll theme in action [here](https://jeromelachaud.github.io/freelanc
 
 ---------
 For more details, read the [documentation](http://jekyllrb.com/)
+
+
+## Documentation
+
+https://about.gitlab.com/2016/04/07/gitlab-pages-setup/#custom-domains
