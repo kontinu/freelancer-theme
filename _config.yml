@@ -88,3 +88,9 @@ markdown: kramdown
 permalink: pretty
 
 
+exclude:
+  - .img-sources/
+  - "*.sh"
+  - docker-compose.yml
+  - README.md
+  - Gemfile*
