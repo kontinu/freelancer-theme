@@ -6,4 +6,7 @@ export $baseurl
 
 sleep 10 && open "http://localhost:4000/${baseurl}/" &
 
-docker-compose up --force-recreate "$@"
+docker-compose up --force-recreate --exit-code-from page "$@" || {
+    jobs
+    kill %-
+}

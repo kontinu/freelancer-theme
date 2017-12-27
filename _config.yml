@@ -86,5 +86,5 @@ credits: 'Kontinu 2017 using Jekyll free-lancer theme'
 # Build settings
 markdown: kramdown
 permalink: pretty
-plugins:
-  - jekyll-sitemap
+
+

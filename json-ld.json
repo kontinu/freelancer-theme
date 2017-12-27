@@ -1,0 +1,25 @@
+<script type='application/ld+json'> 
+{
+  "@context": "http://www.schema.org",
+  "@type": "ProfessionalService",
+  "name": "kontinu",
+  "url": "https://kontinu.gitlab.io/home/",
+  "sameAs": [
+    "https://kontinu.github.io/home/"
+  ],
+  "logo": "https://kontinu.github.io/home/img/profile.png",
+  "image": "https://kontinu.gitlab.io/home",
+  "description": "Consultoria devops en guatemala",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Guatemala City",
+    "postalCode": "01001",
+    "addressCountry": "Guatemala"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1(502)30093002"
+  }
+}
+ </script>
+
