@@ -24,9 +24,11 @@ pages:
   stage: deploy
   script:
   - bundle exec jekyll build -d public
+  - tar cvfz public.tar.gz public
   artifacts:
     paths:
     - public
+    - "*.tar.gz"
   only:
   - master
   environment:
