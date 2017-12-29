@@ -20,6 +20,18 @@ test:
   except:
   - master
 
+
+archive:
+  stage: test
+  script:
+  - bundle exec jekyll build -d public
+  - tar cvfz public.tar.gz public
+  artifacts:
+    paths:
+    - "*.tar.gz"
+  only:
+  - master
+
 pages:
   stage: deploy
   script:
@@ -34,3 +46,4 @@ pages:
   environment:
     name: pages
     url: https://kontinu.gitlab.io/home/
+
