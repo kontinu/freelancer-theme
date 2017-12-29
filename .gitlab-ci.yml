@@ -22,7 +22,7 @@ test:
 
 
 archive:
-  stage: test
+  stage: deploy
   script:
   - bundle exec jekyll build -d public
   - tar cvfz public.tar.gz public
