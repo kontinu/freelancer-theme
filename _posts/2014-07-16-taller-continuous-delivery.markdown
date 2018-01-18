@@ -6,7 +6,10 @@ img: cd.png
 alt: taller-continuous-delivery
 tooltiptext: Taller Continuous Delivery & CD pipelines
 project-date: April 2014
-category: Continuous Delivery
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+category:
+    txt: Continuous Delivery
+description: |+
+
+    <div class="page-scroll" > <a class="btn btn-primary" href="#contact" data-dismiss="modal" data-target="#" > Contáctanos </a></div>
 
 ---

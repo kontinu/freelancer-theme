@@ -17,20 +17,34 @@
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
+                                {% if post.client.txt  %}
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                                    {% if post.client.href %}
+                                    <strong><a href="{{ post.client.href }}">{{ post.client.txt }}</a>
                                     </strong>
+                                    {% else %}
+                                    <strong>{{ post.client.txt }}</strong>
+                                    {% endif %}
                                 </li>
+                                {% endif %}
+                                {% if post.project-date.txt and post.project-date.href %}
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                                    <strong><a href="{{ post.project-date.href }}">{{ post.project-date.txt }}</a>
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
-                                    </strong>
+                                {% endif %}
+                                {% if post.category.txt  %}
+                                <li>Category:
+                                    {% if post.category.href %}
+                                        <strong><a href="{{ post.category.href }}">{{ post.category.txt }}</a>
+                                        </strong>
+                                    {% else %}
+                                        <strong>{{ post.category.txt }}</strong>
+                                    {% endif %}
                                 </li>
+                                {% endif %}
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
                         </div>
                     </div>
                 </div>

@@ -5,8 +5,18 @@ date: 2014-07-12
 img: diagnose.png
 alt: encuesta-de-diagnóstico
 tooltiptext: Encuesta de diagnóstico y descubrimiento
-project-date: April 2014
-category: Assesment
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+category:
+  txt: Diagnostico
+description: |+
+    ¿Quieres saber cómo estas actualmente alineado con Devops?
+    <br><br>
+    Muchas veces es complejo el saber por dónde comenzar cuando se trata de Devops, debido a que es un tema muy amplio; mediante esta encuesta te ayudaremos a redirigir tu esfuerzo y saber por dónde comenzar.
+    <br><br>
 
+    La encuesta se enfoca exclusivamente en las áreas que se consideran pilares en Devops, tales como Integración Continua (CI), Entrega Continua (CD), Test Automatizado,etc.
+    <br><br>
+
+
+    Empieza tu viaje hacia Devops hoy!
+    <div class="page-scroll" > <a class="btn btn-primary" href="#contact" data-dismiss="modal" data-target="#" > Contáctanos </a></div>
 ---

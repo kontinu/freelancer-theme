@@ -6,7 +6,21 @@ img: docker.png
 alt: taller-docker
 tooltiptext: Taller de Docker
 project-date: April 2014
-category: Docker
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+category:
+    txt: Docker
+description: |+
+    <a href="https://www.docker.com/what-docker" >Docker </a> es la plataforma para aplicaciones del futuro, con contenedores Docker podras obtener algunas de estas caracterísiticas a tus equipos de desarrollo y operaciones:
+    <br>
+    <p> - Agilidad </p>
+    <p> - Portabilidad </p>
+    <p> - Seguridad </p>
+    <p> - Reducir costos de infrastructura </p>
+    <p> - Simppcidad en Infrastructura </p>
+    <br>
+    <p>
+    También es la plataforma que te ayudara a migrar a <a href="https://www.redhat.com/es/topics/microservices" > Microservicios </a>, Mejorar tu proceso actual de Integración Continua y Entrega Continua, 3 de los aspectos más importantes hacia <a href="https://www.docker.com/sites/default/files/WP_Docker%20and%20the%203%20ways%20devops.pdf"> Devops </a>
+
+    </p>
+    <div class="page-scroll" > <a class="btn btn-primary" href="#contact" data-dismiss="modal" data-target="#" > Contáctanos </a></div>
 
 ---
