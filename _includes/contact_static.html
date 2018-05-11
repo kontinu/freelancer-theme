@@ -12,26 +12,35 @@
 				<form  action="//formspree.io/{{ site.email }}" method="POST" name="sentMessage" id="contactForm" novalidate>
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
-							<label>Name</label>
-							<input type="text" name="name" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+							<label>Nombre</label>
+							<input type="text" name="name" class="form-control" placeholder="Su nombre" id="name" required data-validation-required-message="Por favor infrese su nombre ">
+							<p class="help-block text-danger"></p>
+						</div>
+					</div>
+					
+					<div class="row control-group">
+						<div class="form-group col-xs-12 floating-label-form-group controls">
+							<label>Correo Electrónico</label>
+							<input type="email" name="_replyto" class="form-control" placeholder="Correo Electrónico" id="email" required data-validation-required-message="Por favor provea su correo electrónico.">
 							<p class="help-block text-danger"></p>
 						</div>
 					</div>
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
-							<label>Email Address</label>
-							<input type="email" name="_replyto" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+							<label>Teléfono</label>
+							<input type="text" name="phone" class="form-control" placeholder="Teléfono (Opcional)" id="phone"  >
 							<p class="help-block text-danger"></p>
 						</div>
 					</div>
+					
 					<div>
 						<input type="hidden"  name="_subject" value="New submission!">
 						<input type="text" name="_gotcha" style="display:none" />
 					</div>
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
-							<label>Message</label>
-							<textarea rows="5" name="message" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+							<label>Mensaje</label>
+							<textarea rows="5" name="message" class="form-control" placeholder="Mensaje" id="message" required data-validation-required-message="Por favoe ingrese un mensaje."></textarea>
 							<p class="help-block text-danger"></p>
 						</div>
 					</div>
