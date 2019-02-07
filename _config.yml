@@ -40,7 +40,7 @@ disqus_shortname: myshortname
 # salmon - azul - azulgris
 # e49695  003366 263340
 color:
-  primary: FF7E79 #80B3FF
+  primary: 808184 #FF7E79 #80B3FF
   primary-rgb: "255,242,241" #"128,179,255"
   secondary: 1d4063 #FD6E8A
   secondary-dark: 243342 #A2122F
@@ -48,7 +48,7 @@ color:
 
 about:
   column1: |+
-    Somos una empresa basada en la ciudad de Guatemala,
+    Somos una empresa con sede en la ciudad de Guatemala,
     formada por expertos en el tema, con años de experiencia en llevar a empresas a la adopción y transformación efectiva Devops,
     contamos con el personal indicado certificado en Jenkins, Docker, AWS y Devops; que a la vez disfrutan el compartir sus experiencias
     y conocimiento.
