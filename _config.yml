@@ -94,7 +94,7 @@ address:
 footer:
   copyright: Kontinu
   location: Ubicación
-  social: En la Web
+  #social: En la Web
   credits: Créditos
 # Credits content
 credits: 'Kontinu 2017 using Jekyll free-lancer theme'
@@ -102,8 +102,8 @@ credits: 'Kontinu 2017 using Jekyll free-lancer theme'
 
 
 # Build settings
-markdown: kramdown
-permalink: pretty
+#markdown: kramdown
+#permalink: pretty
 
 
 
