@@ -71,15 +71,15 @@ about:
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
+#social:
   # - title: twitter
   #   url: http://twitter.com/jekyllrb
   # - title: facebook
   #   url:
-  - title: bitbucket
-    url: http://gitlab.com/kontinu/home
-  - title: github
-    url: http://github.com/kontinu/home
+  #- title: bitbucket
+  #  url: http://gitlab.com/kontinu/home
+  #- title: github
+ # url: http://github.com/kontinu/home
 
 
 
