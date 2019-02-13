@@ -286,6 +286,18 @@ section.success {
     transition: all ease .5s;
 }
 
+/*fondo para el portfolio de servicios*/
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(179, 179,179,.9);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
 #portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
 }
