@@ -4,7 +4,7 @@ modal-id: 4
 date: 2014-07-14
 img: docker.png
 alt: taller-docker
-tooltiptext: Taller de Docker
+tooltiptext: Docker
 project-date: April 2014
 category:
     txt: Docker

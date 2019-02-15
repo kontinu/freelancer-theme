@@ -4,7 +4,7 @@ modal-id: 1
 date: 2014-07-18
 img: devops.png
 alt: capacitación-devops
-tooltiptext: Capacitación completa Devops
+tooltiptext: Devops
 project-date: April 2014
 category:
     txt: Devops
