@@ -4,7 +4,7 @@ modal-id: 3
 date: 2014-07-15
 img: ci.png
 alt: taller-continuous-integration
-tooltiptext: Taller de Continuous Integration.
+tooltiptext: Continuous Integration
 project-date: April 2014
 category:
     txt: Continuous Integration
