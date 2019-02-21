@@ -29,5 +29,12 @@
     {% endif %}
     <!-- Script para que funcione recaptcha -->
     <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
+    
     <script src="https://www.google.com/recaptcha/api.js?render=6LfXIJMUAAAAAPqXse6r0iSv7buWEsxAAf9mh4tc"></script>
-  
+    <script>
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6LfXIJMUAAAAAPqXse6r0iSv7buWEsxAAf9mh4tc', {action: 'homepage'}).then(function(token) {
+           ...
+        });
+    });
+    </script>
