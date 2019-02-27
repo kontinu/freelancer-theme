@@ -45,5 +45,5 @@ pages:
   - master
   environment:
     name: pages
-    url: https://www.kontinu.io/
+    url: http://www.kontinu.io/
 
