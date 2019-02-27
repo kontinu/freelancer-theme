@@ -3,7 +3,7 @@ layout: default
 modal-id: 4
 date: 2014-07-14
 img: docker.png
-alt: taller-docker
+alt: docker
 tooltiptext: Docker
 project-date: April 2014
 category:

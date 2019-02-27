@@ -3,7 +3,7 @@ layout: default
 modal-id: 6
 date: 2014-07-12
 img: diagnose.png
-alt: encuesta-de-diagnóstico
+alt: diagnostico-descubrimiento
 tooltiptext: Diagnostico y Descubrimiento
 category:
   txt: Diagnostico

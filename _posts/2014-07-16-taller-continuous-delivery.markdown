@@ -3,7 +3,7 @@ layout: default
 modal-id: 2
 date: 2014-07-16
 img: cd.png
-alt: taller-continuous-delivery
+alt: continuous-delivery-pipelines
 tooltiptext: Continuous Delivery / Pipelines
 project-date: April 2014
 category:

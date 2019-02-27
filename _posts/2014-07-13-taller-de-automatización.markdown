@@ -3,7 +3,7 @@ layout: default
 modal-id: 5
 date: 2014-07-13
 img: automation.png
-alt: taller-de-automatización
+alt: automatización
 tooltiptext: Automatización
 project-date: April 2014
 category:
