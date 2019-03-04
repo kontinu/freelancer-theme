@@ -25,6 +25,12 @@ a.active {
     color: #{{ site.color.primary }};
 }
 
+/*ocultamos el texto del H1*/
+.texto-oculto {
+    font-size: 0px;
+    font-display: hidden;
+}
+
 h1,
 h2,
 h3,
