@@ -8,7 +8,9 @@ tooltiptext: Continuous Integration
 project-date: April 2014
 category:
     txt: Continuous Integration
+reference: /ci.html
 description: |+
+
 
     <div class="page-scroll" > <a class="btn btn-primary" href="#contact" data-dismiss="modal" data-target="#" > Contáctanos </a></div>
 ---

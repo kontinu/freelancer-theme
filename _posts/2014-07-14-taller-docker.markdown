@@ -8,6 +8,7 @@ tooltiptext: Docker
 project-date: April 2014
 category:
     txt: Docker
+reference: /docker.html
 description: |+
     <a href="https://www.docker.com/what-docker" >Docker </a> es la plataforma para aplicaciones del futuro, con contenedores Docker podras obtener algunas de estas caracterísiticas a tus equipos de desarrollo y operaciones:
     <br>
