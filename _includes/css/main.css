@@ -204,7 +204,7 @@ a, a:hover, a:focus, a:active, a.active {
     position: absolute;
     background-color: #243342;
     min-width: 200px;
-    font-size-adjust: 0.5em;
+    font-size: 0.9em;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }

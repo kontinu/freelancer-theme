@@ -7,7 +7,7 @@ alt: diagnostico-descubrimiento
 tooltiptext: Diagnostico y Descubrimiento
 category:
   txt: Diagnostico
-reference: /diagnose.html
+reference: /diagnostics.html
 description: |+
     ¿Quieres saber cómo estas actualmente alineado con Devops?
     <br><br>

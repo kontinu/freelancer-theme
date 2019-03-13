@@ -18,20 +18,32 @@
             <ul class="nav navbar-nav navbar-right">
                 <li class="hidden">
                     <a href="#page-top"></a>
-                </li>             
+                </li>
                 <li class="page-scroll">
                     <div class="dropdown">
                         <a href="#portfolio">Servicios</a>
                         <div class="dropdown-content">
-                            <a href="/devops.html">Devops</a>
-                            <a href="/cd_pipelines.html">Continous delivery / pipelines</a>
-                            <a href="/ci.html">Continous Integration</a>
-                            <a href="/docker.html">Docker</a>
-                            <a href="/automation.html">Automatización</a>
-                            <a href="/diagnostics.html">Diagnóstico y descubrimiento</a>
+                            {% for post in site.posts %}
+                            <a href="{{ post.reference }}">{{post.tooltiptext}} </a>
+                            {% endfor %}
                         </div>
                     </div>
+
                 </li>
+
+                <!-- <li class="page-scroll">
+                        <div class="dropdown">
+                            <a href="#portfolio">Servicios</a>
+                            <div class="dropdown-content">
+                                <a href="/devops.html">Devops</a>
+                                <a href="/cd_pipelines.html">Continous delivery / pipelines</a>
+                                <a href="/ci.html">Continous Integration</a>
+                                <a href="/docker.html">Docker</a>
+                                <a href="/automation.html">Automatización</a>
+                                <a href="/diagnostics.html">Diagnóstico y descubrimiento</a>
+                            </div>
+                        </div>
+                    </li> -->
                 <li class="page-scroll">
                     <a href="#about">Sobre Nosotros</a>
                 </li>
