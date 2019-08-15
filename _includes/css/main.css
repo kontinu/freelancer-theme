@@ -303,7 +303,7 @@ section.success {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
 }
-
+/* removes the magnifier - remueve la lupa */
 #portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
 }
