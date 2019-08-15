@@ -24,9 +24,9 @@
                         <a href="#portfolio">Servicios</a>
                         <div class="dropdown-content">
                             {% for post in site.posts %}
-                            <li class="page-scroll">
+
                                 <a href="{{ post.reference }}">{{post.tooltiptext}} </a>
-                            </li>
+
                             {% endfor %}
                         </div>
                     </div>
