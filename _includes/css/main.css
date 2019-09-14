@@ -155,13 +155,14 @@ header .intro-text .skills {
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
-    
+
 }
 
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 800;
+    background-image: linear-gradient(90deg, rgb(10, 26, 44) , rgb(24, 56, 88) , rgb(73, 160, 161) );
 }
 
 /*agregamos css manual para titulo*/
@@ -191,13 +192,13 @@ a, a:hover, a:focus, a:active, a.active {
   .dropdown:hover {
       background-color: #243342;
   }
-  
+
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: relative;
     display: inline-block;
   }
-  
+
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     display: none;
@@ -208,7 +209,7 @@ a, a:hover, a:focus, a:active, a.active {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-  
+
   /* Links inside the dropdown */
   .dropdown-content a {
     color: white;
@@ -216,13 +217,13 @@ a, a:hover, a:focus, a:active, a.active {
     text-decoration: none;
     display: block;
   }
-  
+
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {background-color: #f18780;}
-  
+
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block; }
-  
+
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropdown {background-color: #f18780;}
 
@@ -558,7 +559,7 @@ footer .footer-below {
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
- 
+
     /* Position the tooltip text - see examples below! */
     position: absolute;
     z-index: 1;
