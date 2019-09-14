@@ -415,6 +415,7 @@ form .row:first-child .floating-label-form-group {
 
 footer {
     color: #fff;
+
 }
 
 footer h3 {
@@ -423,7 +424,9 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
+    /* background-color: #{{ site.color.secondary }}; */
+    background-image: linear-gradient(90deg, rgb(10, 26, 44) , rgb(24, 56, 88) , rgb(73, 160, 161) );
+
 }
 
 footer .footer-col {
@@ -432,7 +435,9 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    /* background-color: #{{ site.color.secondary-dark }}; */
+    background-image: linear-gradient(90deg, rgb(10, 26, 44) , rgb(24, 56, 88) , rgb(73, 160, 161) );
+
 }
 
 .btn-social {
