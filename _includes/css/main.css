@@ -135,6 +135,7 @@ header .intro-text .skills {
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
+
     }
 
     .navbar-fixed-top .navbar-brand {
@@ -147,6 +148,7 @@ header .intro-text .skills {
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
         color: #f18780;
         background-color: transparent;
+    }
 
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
@@ -154,6 +156,7 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+
     }
 
 }
