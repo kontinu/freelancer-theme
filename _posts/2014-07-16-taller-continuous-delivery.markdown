@@ -4,7 +4,7 @@ modal-id: 2
 date: 2014-07-16
 img: cd.png
 alt: continuous-delivery-pipelines
-tooltiptext: Continuous Delivery / Pipelines
+tooltiptext: Continuous Delivery
 project-date: April 2014
 category:
     txt: Continuous Delivery
