@@ -24,3 +24,4 @@ My webpage using Jekyll.
 - [ ] Change services Icons
 - [ ] Change to Bootcamp instead of consulting
 - [ ] Make Footer with columns
+- [ ] Revamp Logo, idea [Argon Logo](https://demos.creative-tim.com/argon-design-system/assets/img/brand/white.png)
