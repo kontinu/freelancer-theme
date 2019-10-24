@@ -113,3 +113,5 @@ exclude:
   - docker-compose.yml
   - README.md
   - Gemfile*
+  - .gitlab-ci.yml
+  - LICENSE

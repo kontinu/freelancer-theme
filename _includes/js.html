@@ -28,8 +28,8 @@
     {% include js_disqus.html %}
     {% endif %}
     <!-- Script para que funcione recaptcha -->
-    
-    
+
+
     <script src="https://www.google.com/recaptcha/api.js?render=6LfXIJMUAAAAAPqXse6r0iSv7buWEsxAAf9mh4tc"></script>
     <script>
     grecaptcha.ready(function() {
@@ -38,7 +38,8 @@
         });
     });
     </script>
-    
-    
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+ <script src="{{ "/js/animation.js" | prepend: site.baseurl }}"></script>
     <!-- <script src='https://www.google.com/recaptcha/api.js'></script>
-    
