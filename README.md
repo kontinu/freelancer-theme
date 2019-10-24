@@ -21,3 +21,5 @@ My webpage using Jekyll.
     - [https://www.kloia.com/](https://www.kloia.com/)
     - [**https://caylent.com/devops-as-a-service**](https://caylent.com/devops-as-a-service)
 - [X] Fix Services cards
+- [ ] Change services Icons
+- [ ] Change to Bootcamp instead of consulting
