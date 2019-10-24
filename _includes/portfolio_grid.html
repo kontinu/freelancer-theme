@@ -14,31 +14,17 @@
         <div class="row">
             {% for post in site.posts %}
             <div class="col-sm-4 portfolio-item">
-                <!-- <a href="{{ post.reference }}" class="portfolio-link">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                            {% if post.tooltiptext %} <span
-                                class="tooltiptext"><br><br>{{post.tooltiptext}}</span>
-                            {% endif %}
-
-                        </div>
-                    </div> -->
 
 
-                    <div class="polaroid container ">
+
+                    <div class="polaroid container">
                         <a href="{{ post.reference }}" >
                             <img src="{{baseurl}}img/portfolio/{{post.img}}" alt="{{post.tooltiptext}}" style="width:100%">
                         </a>
-                        <div  class="lead" style="word-wrap: break-word; padding: 10px">
-
-                                {{post.tooltiptext | strip}}
-
+                        <div   style="word-wrap: break-word; padding: 10px">
+                                <h4 >{{post.tooltiptext | strip}}</h4>
                         </div>
                     </div>
-                    <!-- <img src="{{baseurl}}img/portfolio/{{post.img}}" style="box-shadow: 10px 10px 5px grey;" class="img-responsive" alt="{{ post.alt }}"> -->
-
-                    <!-- <img src="{{baseurl}}img/portfolio/{{post.img}}" style="box-shadow: 10px 10px 5px grey;" class="img-responsive" alt="{{ post.alt }}"> -->
                 <!-- </a> -->
             </div>
             {% endfor %}

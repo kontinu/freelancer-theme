@@ -4,7 +4,7 @@ modal-id: 6
 date: 2014-07-12
 img: diagnose.png
 alt: diagnostico-descubrimiento
-tooltiptext: Diagnóstico y Descubrimiento
+tooltiptext: Diagnóstico & Descubrimiento
 category:
   txt: Diagnostico
 reference: /diagnostics.html

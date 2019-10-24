@@ -23,3 +23,4 @@ My webpage using Jekyll.
 - [X] Fix Services cards
 - [ ] Change services Icons
 - [ ] Change to Bootcamp instead of consulting
+- [ ] Make Footer with columns

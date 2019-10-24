@@ -1,3 +1,6 @@
+
 {% include css/bootstrap.min.css %}
+/* {% include css/flexbox.min.css %} */
+
 {% include css/main.css %}
 {% include css/extra.css %}
