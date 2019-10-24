@@ -1,4 +1,7 @@
 <!-- Portfolio Grid Section -->
+
+
+
 <section id="portfolio">
     <div class="container">
         <div class="row">
@@ -11,7 +14,7 @@
         <div class="row">
             {% for post in site.posts %}
             <div class="col-sm-4 portfolio-item">
-                <a href="{{ post.reference }}" class="portfolio-link">
+                <!-- <a href="{{ post.reference }}" class="portfolio-link">
                     <div class="caption">
                         <div class="caption-content">
                             <i class="fa fa-search-plus fa-3x"></i>
@@ -20,10 +23,23 @@
                             {% endif %}
 
                         </div>
-                    </div>
+                    </div> -->
 
-                    <img src="{{baseurl}}img/portfolio/{{post.img}}" class="img-responsive" alt="{{ post.alt }}">
-                </a>
+
+                    <div class="polaroid container ">
+                        <a href="{{ post.reference }}" >
+                            <img src="{{baseurl}}img/portfolio/{{post.img}}" alt="{{post.tooltiptext}}" style="width:100%">
+                        </a>
+                        <div  class="lead" style="word-wrap: break-word; padding: 10px">
+
+                                {{post.tooltiptext | strip}}
+
+                        </div>
+                    </div>
+                    <!-- <img src="{{baseurl}}img/portfolio/{{post.img}}" style="box-shadow: 10px 10px 5px grey;" class="img-responsive" alt="{{ post.alt }}"> -->
+
+                    <!-- <img src="{{baseurl}}img/portfolio/{{post.img}}" style="box-shadow: 10px 10px 5px grey;" class="img-responsive" alt="{{ post.alt }}"> -->
+                <!-- </a> -->
             </div>
             {% endfor %}
         </div>

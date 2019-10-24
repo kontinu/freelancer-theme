@@ -20,3 +20,4 @@ My webpage using Jekyll.
     - [https://supergiant.io/](https://supergiant.io/)
     - [https://www.kloia.com/](https://www.kloia.com/)
     - [**https://caylent.com/devops-as-a-service**](https://caylent.com/devops-as-a-service)
+- [X] Fix Services cards
