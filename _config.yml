@@ -2,7 +2,7 @@
 title: Kontinu
 email: contact@kontinu.io
 url: "/"
-description: "Kontinu Guatemala - Consultoria Devops en Guatemala, nos especializamos en: Cloud, Docker, SCRUM, Continuous Delivery, Continuous Integration"
+description: "Kontinu Guatemala - Devops Guatemala - Consultoria Devops en Guatemala, nos especializamos en: Cloud, Docker, SCRUM, Continuous Delivery, Continuous Integration"
 
 skills: "Consultoria Devops"
 meta_author: Cano Marcos
@@ -116,3 +116,6 @@ exclude:
   - .gitlab-ci.yml
   - LICENSE
   - experiments
+  - .gitignore
+  - .git
+  - LICENSE
