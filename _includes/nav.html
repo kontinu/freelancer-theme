@@ -1,28 +1,33 @@
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
+    <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse"
+        <div class="navbar-header page-scroll " >
+
+            <button type="button" class="navbar-toggle " data-toggle="collapse"
                 data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">{{ site.title }}</a>
+
+            <img class="navbar-brand sticky-top  navbar-left   logo img-responsive"   id="Logo" src="img/mini_full.png">
+            <a class="navbar-brand sticky-top " href="#">
+                <span>{{site.title}}</span>
+            </a>
+
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+        <div class="collapse navbar-collapse  " id="bs-example-navbar-collapse-1"  >
+            <ul class="nav navbar-nav navbar-right " style="padding: 0;">
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
                 <li class="page-scroll">
                     <div class="dropdown">
                         <a href="#portfolio">Servicios</a>
-                            <!-- https://www.bootply.com/1u6VW4bsrR -->
                             <div class="collapse dropdown-content"  >
                                 {% for post in site.posts %}
                                     <a  href="{{ post.reference }}">{{post.tooltiptext}} </a>
@@ -32,23 +37,10 @@
 
                 </li>
 
-                <!-- <li class="page-scroll">
-                        <div class="dropdown">
-                            <a href="#portfolio">Servicios</a>
-                            <div class="dropdown-content">
-                                <a href="/devops.html">Devops</a>
-                                <a href="/cd_pipelines.html">Continous delivery / pipelines</a>
-                                <a href="/ci.html">Continous Integration</a>
-                                <a href="/docker.html">Docker</a>
-                                <a href="/automation.html">Automatización</a>
-                                <a href="/diagnostics.html">Diagnóstico y descubrimiento</a>
-                            </div>
-                        </div>
-                    </li> -->
-                <li class="page-scroll">
+                <li class="page-scroll nav-item">
                     <a href="#about">Sobre Nosotros</a>
                 </li>
-                <li class="page-scroll">
+                <li class="page-scroll nav-item">
                     <a href="#contact">Contacto</a>
                 </li>
             </ul>

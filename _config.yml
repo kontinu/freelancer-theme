@@ -115,3 +115,4 @@ exclude:
   - Gemfile*
   - .gitlab-ci.yml
   - LICENSE
+  - experiments
