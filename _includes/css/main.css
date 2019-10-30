@@ -161,18 +161,7 @@ header .intro-text .skills {
 
 }
 
-.navbar {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 800;
-    background-image: linear-gradient(90deg, rgb(10, 26, 44) , rgb(24, 56, 88) , rgb(73, 160, 161) );
-}
 
-/*agregamos css manual para titulo*/
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-    color: #f18780;
-    background-color: transparent;
-}
 
 /*ocano 11/02/19*/
 
@@ -425,23 +414,6 @@ footer h3 {
     margin-bottom: 30px;
 }
 
-footer .footer-above {
-    padding-top: 50px;
-    /* background-color: #{{ site.color.secondary }}; */
-    background-image: linear-gradient(90deg, rgb(10, 26, 44) , rgb(24, 56, 88) , rgb(73, 160, 161) );
-
-}
-
-footer .footer-col {
-    margin-bottom: 50px;
-}
-
-footer .footer-below {
-    padding: 25px 0;
-    /* background-color: #{{ site.color.secondary-dark }}; */
-    background-image: linear-gradient(90deg, rgb(10, 26, 44) , rgb(24, 56, 88) , rgb(73, 160, 161) );
-
-}
 
 .btn-social {
     display: inline-block;
