@@ -1,6 +1,7 @@
 div.polaroid {
     width: 250px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow .6s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     text-align: center;
     border-radius: 25px;
 
@@ -11,6 +12,10 @@ div.polaroid {
     padding-right: 0px;
     background-color: white;
 
+}
+
+div.polaroid:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .logo {
@@ -44,7 +49,14 @@ vertical-align {
     margin-top: 0px;
 }
 
-/* 
+
+.jumbotron {
+    padding: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #e7e7e7;
+}
+/*
 .logo-letters {
     width:30%;
     heigth:auto;

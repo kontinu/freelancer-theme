@@ -14,10 +14,7 @@
         <div class="row jumbotron">
             {% for post in site.posts %}
             <div class="col-sm-4 portfolio-item">
-
-
-
-                    <div class="polaroid container">
+                    <div class="polaroid container zoom">
                         <a href="{{ post.reference }}" >
                             <img src="{{baseurl}}img/portfolio/{{post.img}}" alt="{{post.tooltiptext}}" style="width:100%">
                         </a>

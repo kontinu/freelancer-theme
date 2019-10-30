@@ -26,4 +26,5 @@ My webpage using Jekyll.
 - [ ] Make Footer with columns
 - [ ] Revamp Logo, idea [Argon Logo](https://demos.creative-tim.com/argon-design-system/assets/img/brand/white.png)
 - [x] Add logo to navbar
-- [ ] Better [meta props](https://support.google.com/webmasters/answer/35624) 
+- [ ] Better [meta props](https://support.google.com/webmasters/answer/35624)
+- [X] Shadow on hover on portfolio grid
