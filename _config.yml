@@ -93,13 +93,25 @@ address:
   - line: 📞  +(502) 30093002
 
 
-# Footer settings
+# # Footer settings
+# footer:
+#   copyright: Kontinu
+#   location: Ubicación
+#   #social: En la Web
+#   credits: Créditos
+# # Credits content
+
 footer:
-  copyright: Kontinu
-  location: Ubicación
-  #social: En la Web
-  credits: Créditos
-# Credits content
+  - line:
+        title: servicios
+        content:
+            - devops
+  - line:
+        title: column 2
+  - line:
+        title: column 3
+
+
 credits: 'Kontinu 2019'
 
 

@@ -14,3 +14,5 @@ description: |+
     <div class="page-scroll" > <a class="btn btn-primary" href="#contact" data-dismiss="modal" data-target="#" > Contáctanos </a></div>
 
 ---
+
+<!-- TODO: most of this variables are not used. -->
